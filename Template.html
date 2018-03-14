@@ -55,6 +55,9 @@
       <section>
         <h2>In-text link</h2>
 
+        <h3>CSS selector:</h3>
+        <p>.a</p>
+
         <h3>Sample code:</h3>
         <code>&lt;a class="link" href="https://www.youtube.com"&gt; Default Button&lt;/a&gt;</code>
 
@@ -64,6 +67,9 @@
 
       <section>
         <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button</p>
 
         <h3>Sample code:</h3>
         <code>&lt;button type="submit" value="Submit"&gt; Submit &lt;/button&gt;<br>
@@ -76,6 +82,9 @@
 
       <section>
         <h2>Text Input Field</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.input</p>
 
         <h3>Sample code:</h3>
         <code>&lt;input type="text" value="Type Here!"&gt;</code>
@@ -95,6 +104,9 @@
       <section>
         <h2>Headings</h2>
 
+        <h3>CSS selector:</h3>
+        <p>.h1 .h2 .h3</p>
+
         <h3>Sample code:</h3>
         <code>
           &lt;h1&gt;Large Headings&lt;/h1&gt; <br>
@@ -112,6 +124,9 @@
       <section>
         <h2>Paragraphs</h2>
 
+        <h3>CSS selector:</h3>
+        <p>.p</p>
+
         <h3>Sample code:</h3>
         <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Curabitur bibendum commodo nulla in condimentum.
@@ -127,43 +142,51 @@
 
       <section>
         <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.ul .li</p>
+
         <h3>Sample code:</h3>
         <code>
           &lt;ul&gt;<br>
-            &lt;li&gt;Espresso&lt;/li&gt;<br>
-            &lt;li&gt;Decaf Espresso&lt;/li&gt;<br>
-            &lt;li&gt;Dark Roast&lt;/li&gt;<br>
-            &lt;li&gt;Medium Roast&lt;/li&gt;<br>
+            &lt;li&gt;Bio&lt;/li&gt;<br>
+            &lt;li&gt;Project 1&lt;/li&gt;<br>
+            &lt;li&gt;Project 2&lt;/li&gt;<br>
+            &lt;li&gt;style guide&lt;/li&gt;<br>
           &lt;/ul&gt;
         </code>
 
         <h3>Rendered element:</h3>
         <ul>
-          <li>Espresso</li>
-          <li>Decaf Espresso</li>
-          <li>Dark Roast</li>
-          <li>Medium Roast</li>
+          <li>Bio</li>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>style guide</li>
         </ul>
       </section>
 
       <section>
+
+        <h3>CSS selector:</h3>
+        <p>.ol .li</p>
+
         <h2>Numbered Lists</h2>
         <h3>Sample code:</h3>
         <code>
           &lt;ol&gt;<br>
-            &lt;li&gt;Espresso&lt;/li&gt;<br>
-            &lt;li&gt;Decaf Espresso&lt;/li&gt;<br>
-            &lt;li&gt;Dark Roast&lt;/li&gt;<br>
-            &lt;li&gt;Medium Roast&lt;/li&gt;<br>
+            &lt;li&gt;Bio&lt;/li&gt;<br>
+            &lt;li&gt;Project 1&lt;/li&gt;<br>
+            &lt;li&gt;Project 2&lt;/li&gt;<br>
+            &lt;li&gt;style guide&lt;/li&gt;<br>
           &lt;/ol&gt;
         </code>
 
         <h3>Rendered element:</h3>
         <ol>
-          <li>Espresso</li>
-          <li>Decaf Espresso</li>
-          <li>Dark Roast</li>
-          <li>Medium Roast</li>
+          <li>Bio</li>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>style guide</li>
         </ol>
       </section>
 
@@ -176,40 +199,38 @@
     <section id="combined_elements">
 
       <section>
+
+        <h3>CSS selector:</h3>
+        <p>.nav .nav .a</p>
+
         <h2>Main Navigation</h2>
         <h3>Sample code:</h3>
         <code>
           &lt;nav class="nav-main box"&gt;<br>
-            &lt;a href="#Menu" class="nav-main-item"&gt;Menu&lt;/a&gt;<br>
-            &lt;a href="#about us" class="nav-main-item"&gt;About Us&lt;/a&gt;<br>
-            &lt;a href="https://www.google.ca/maps/search/take+five+cafe" class="nav-main-item"&gt;Locator&lt;/a&gt;<br>
+            &lt;a href="#Bio" class="nav-main-item"&gt;Bio&lt;/a&gt;<br>
+            &lt;a href="#Project 1" class="nav-main-item"&gt;Project 1&lt;/a&gt;<br>
+            &lt;a href="#Project 2" class="nav-main-item"&gt;Project 2&lt;/a&gt;<br>
           &lt;/nav&gt;
         </code>
 
         <h3>Rendered element:</h3>
 
         <nav class="nav-main box">
-          <a href="#Menu" class="nav-main-item">Menu</a>
-          <a href="#about us" class="nav-main-item">About Us</a>
-          <a href="https://www.google.ca/maps/search/take+five+cafe" class="nav-main-item">Locator</a>
+          <a href="#Bio" class="nav-main-item">Bio</a>
+          <a href="#Project 1" class="nav-main-item">Project 1</a>
+          <a href="#Project 2" class="nav-main-item">Project 2</a>
         </nav>
       </section>
 
       <section>
-        <h2>Product Listing</h2>
+        <h2>images</h2>
         <h3>Sample code:</h3>
         <code>
-          <!-- &lt;div class ="block-single"&gt; <br>
-            &lt;img class ="img-espresso" src="css/img/espresso.jpg"&gt;<br>
-            &lt;p&gt; Espresso &lt;br&gt; 3.99 &lt;/p&gt;<br>
-          &lt;/div&gt; -->
+
         </code>
 
         <h3>Rendered element:</h3>
-        <!-- <div class ="block-single">
-          <img class ="img-espresso" src="css/img/espresso.jpg">
-          <p> Espresso <br> 3.99 </p>
-        </div> -->
+        <img src="css/img/sc-daqri.png">
       </section>
 
       <section>
@@ -217,46 +238,11 @@
         <h3>Sample code:</h3>
         <p>html:</p>
         <!-- <code>
-          &lt;div class ="container"&gt;<br>
-            &lt;div class ="block"&gt;<br>
-              &lt;p&gt;block #1&lt;/p&gt;<br>
-            &lt;/div&gt;<br>
-            &lt;div class ="block"&gt;<br>
-              &lt;p&gt;block #2&lt;/p&gt;<br>
-            &lt;/div&gt;<br>
-            &lt;div class ="block"&gt;<br>
-              &lt;p&gt;block #3&lt;/p&gt;<br>
-            &lt;/div&gt;<br>
-          &lt;/div&gt;
-        </code>
-          <p>css:</p>
-          <code>
-            .container{<br>
-              display: flex;<br>
-              flex-wrap: wrap;<br>
-            }<br>
 
-            .container .block {<br>
-              height: 150px;<br>
-              background-color: #AAA;<br>
-              margin: 25px;<br>
-              padding: 25px;<br>
-              flex-basis: 15em;<br>
-            }
         </code> -->
 
         <h3>Rendered element:</h3>
-        <!-- <div class ="container">
-          <div class ="block">
-            <p>block #1</p>
-          </div>
-          <div class ="block">
-            <p>block #2</p>
-          </div>
-          <div class ="block">
-            <p>block #3</p>
-          </div>
-        </div> -->
+
       </section>
 
       <section>

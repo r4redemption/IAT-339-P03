@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>Style Guide Template</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+
+    <nav>
+
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <!-- <a href="https:/www.sfu.ca/~zhzhao/iat339/week4/P01/P01%20console">Console Wireframe</a>,
+        <a href="http://www.sfu.ca/~zhzhao/iat339/week4/P01/P01%20smartphone">Smartphone Wireframe</a>,
+        <a href="https:/www.sfu.ca/~zhzhao/iat339/week4/P01/P01%20smartwatch">Smartwatch Wireframe</a>,
+        <a href="https:/www.sfu.ca/~zhzhao/iat339/week4/P01/references.html">References</a>, -->
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="link" href="https://www.youtube.com"&gt; Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="link" href="https://www.youtube.com">This is a link to YouTube! </a>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>Sample code:</h3>
+        <code>&lt;button type="submit" value="Submit"&gt; Submit &lt;/button&gt;<br>
+        &lt;button type="reset" value="Reset"&gt;Reset&lt;/button&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <button type="submit"  value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input type="text" value="Type Here!"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input type="text" value="Type Here!">
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;h1&gt;Large Headings&lt;/h1&gt; <br>
+          &lt;h2&gt;Medium Headings&lt;/h2&gt;<br>
+          &lt;h3&gt;Small Headings&lt;/h3&gt;<br>
+        </code>
+
+        <h3>Rendered Element:</h3>
+          <h1>Large Headings</h1>
+          <h2>Medium Headings</h2>
+          <h3>Small Headings</h3>
+
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Curabitur bibendum commodo nulla in condimentum.
+          Aenean consectetur, nibh ullamcorper dignissim interdum,
+          elit ipsum feugiat turpis, tempus semper nulla quam eu massa. &lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Curabitur bibendum commodo nulla in condimentum.
+          Aenean consectetur, nibh ullamcorper dignissim interdum,
+          elit ipsum feugiat turpis, tempus semper nulla quam eu massa. </p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ul&gt;<br>
+            &lt;li&gt;Espresso&lt;/li&gt;<br>
+            &lt;li&gt;Decaf Espresso&lt;/li&gt;<br>
+            &lt;li&gt;Dark Roast&lt;/li&gt;<br>
+            &lt;li&gt;Medium Roast&lt;/li&gt;<br>
+          &lt;/ul&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ul>
+          <li>Espresso</li>
+          <li>Decaf Espresso</li>
+          <li>Dark Roast</li>
+          <li>Medium Roast</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ol&gt;<br>
+            &lt;li&gt;Espresso&lt;/li&gt;<br>
+            &lt;li&gt;Decaf Espresso&lt;/li&gt;<br>
+            &lt;li&gt;Dark Roast&lt;/li&gt;<br>
+            &lt;li&gt;Medium Roast&lt;/li&gt;<br>
+          &lt;/ol&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>Espresso</li>
+          <li>Decaf Espresso</li>
+          <li>Dark Roast</li>
+          <li>Medium Roast</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <h3>Sample code:</h3>
+        <code>
+          &lt;nav class="nav-main box"&gt;<br>
+            &lt;a href="#Menu" class="nav-main-item"&gt;Menu&lt;/a&gt;<br>
+            &lt;a href="#about us" class="nav-main-item"&gt;About Us&lt;/a&gt;<br>
+            &lt;a href="https://www.google.ca/maps/search/take+five+cafe" class="nav-main-item"&gt;Locator&lt;/a&gt;<br>
+          &lt;/nav&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+
+        <nav class="nav-main box">
+          <a href="#Menu" class="nav-main-item">Menu</a>
+          <a href="#about us" class="nav-main-item">About Us</a>
+          <a href="https://www.google.ca/maps/search/take+five+cafe" class="nav-main-item">Locator</a>
+        </nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>Sample code:</h3>
+        <code>
+          <!-- &lt;div class ="block-single"&gt; <br>
+            &lt;img class ="img-espresso" src="css/img/espresso.jpg"&gt;<br>
+            &lt;p&gt; Espresso &lt;br&gt; 3.99 &lt;/p&gt;<br>
+          &lt;/div&gt; -->
+        </code>
+
+        <h3>Rendered element:</h3>
+        <!-- <div class ="block-single">
+          <img class ="img-espresso" src="css/img/espresso.jpg">
+          <p> Espresso <br> 3.99 </p>
+        </div> -->
+      </section>
+
+      <section>
+        <h2>Grid Structure</h2>
+        <h3>Sample code:</h3>
+        <p>html:</p>
+        <!-- <code>
+          &lt;div class ="container"&gt;<br>
+            &lt;div class ="block"&gt;<br>
+              &lt;p&gt;block #1&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class ="block"&gt;<br>
+              &lt;p&gt;block #2&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class ="block"&gt;<br>
+              &lt;p&gt;block #3&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+          &lt;/div&gt;
+        </code>
+          <p>css:</p>
+          <code>
+            .container{<br>
+              display: flex;<br>
+              flex-wrap: wrap;<br>
+            }<br>
+
+            .container .block {<br>
+              height: 150px;<br>
+              background-color: #AAA;<br>
+              margin: 25px;<br>
+              padding: 25px;<br>
+              flex-basis: 15em;<br>
+            }
+        </code> -->
+
+        <h3>Rendered element:</h3>
+        <!-- <div class ="container">
+          <div class ="block">
+            <p>block #1</p>
+          </div>
+          <div class ="block">
+            <p>block #2</p>
+          </div>
+          <div class ="block">
+            <p>block #3</p>
+          </div>
+        </div> -->
+      </section>
+
+      <section>
+        <h2>Website Colour Swatches</h2>
+        <h3>Sample code:</h3>
+        <code>
+          &lt;img class="img" src="css/img/iat339 P01 colour2.png"&gt;&lt;br&gt; <br>
+        </code>
+
+        <h3>Rendered element:</h3>
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>

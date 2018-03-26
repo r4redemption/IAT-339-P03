@@ -1,6 +1,4 @@
-.header{
-  top:0%;
-}
+/*======================================================== PHONE SETTINGS */
 
 #navbar{
   position: relative;
@@ -19,12 +17,19 @@
 #main{
   clear: both;
 }
+#main .project_intro{
+  text-align: right;
+}
 #main h1{
   font-size: 3em;
   text-align: right;
   font-family: 'Chewy';
 }
-
+#main h2{
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+    padding-left: 1em;
+}
 #main p{
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
@@ -60,9 +65,17 @@
 .card2 img {
    width: 100%;
 }
+/* ------------------------------------------------------------ page layout */
+#header{
+  height: auto;
+  position: static;
+  overflow:hidden;
+}
 
 
 
+/*========================================================================= */
+/*======================================================== MONITOR SETTINGS */
 @media only screen and (min-width: 768px) {
 /* body{
   padding: 0px;
@@ -85,7 +98,7 @@
 #navbar ul li a{
   display: block;
   font-family: 'Lato', sans-serif;
-  font-size:0.8em;
+  font-size:0.85em;
   line-height: 1em;
   transition: transform 0.8s;
   text-decoration: none;
@@ -106,26 +119,41 @@
     color: blue;
 }
 
-/* ------------------------------------------------------------ main display/ */
-/* #main{
-  display: block;
-} */
+/* ------------------------------------------------------------ main styling */
+
 #main h1{
   font-size: 5em;
-  text-align: right;
   font-family: 'Chewy';
+}
+
+#main h2{
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 1em;
+}
+
+#main .project_intro{
+  text-align: right;
+  margin-bottom: 15%;
 }
 
 #main p{
   font-family: 'Lato', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.2em;
+  line-height: 140%;
+  letter-spacing: 0.00625em;
+  text-indent: 1.3em;
 }
 
-.project_container{
-  border: 1px solid black;
-  /* display: inline-block; */
-	float: left;
-  width: 100%
+/* -------------------------------------------------------- footer styling */
+#footer .footer_hline{
+  width: 100%;
+  background-color: silver;
+  height: 1px;
+}
+#footer p{
+  font-size: 0.7em;
+  color:silver;
 }
 
 
@@ -135,8 +163,13 @@
   width: 70%
 } */
 
-
-/* ------------------------------------------------------------ page layout */
+/* ========================================================================= */
+/* ============================================================= PAGE LAYOUT */
+#header{
+  height: auto;
+  position: static;
+  overflow:hidden;
+}
 #iconph{
   border: solid 1px black;
   position:fixed;
@@ -147,7 +180,6 @@
 }
 
 #navbar{
-  /* background-color: green; */
   position:fixed;
   top:55%;
   left:1%;
@@ -156,13 +188,32 @@
 
 #main{
   position:absolute;
+  height: auto;
   top:0;
   right:0;
-  padding-left: 20%;
-  padding-right: 10%;
+  margin-left: 30%;
+  margin-right: 15%;
 }
-/* #imggal{
-  align-items: center;
-} */
+
+#body{
+  position: static;
+  height: auto;
+  overflow:hidden;
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#footer{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  margin-bottom: 3%;
+}
+
+.project_container{
+  margin-bottom: 10%;
+}
 
 }
